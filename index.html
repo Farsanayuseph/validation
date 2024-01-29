@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="breakout.css">
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form action="./success.html">
+        <input type="text" placeholder="Name" id="name"> 
+        <br />
+        <span id="err1"></span>
+        <br />
+        <input type="text" placeholder="phone" id="phn">
+        <br>
+        <span id="err2"></span>
+        <br>
+        <input type="text" placeholder="password" id="pwd">
+        <br>
+        <span id="err3"></span>
+        <br>
+        <button onclick="return validate()">Login</button>
+    </form>
+    
+    <script src="breakout.js"></script>
+</body>
+</html>
